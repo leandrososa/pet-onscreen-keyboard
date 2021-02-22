@@ -1,0 +1,37 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+:root{
+  --key-color: #f1ebd3;
+  --black: #070a11;
+  --red: #96302e;
+  --blue: #008cc8;
+  --silver: #bac1d3;
+  --pink: #b96a70;
+  --bg: #e1e7e5;
+}
+
+@font-face {
+  font-family: font;
+  src: url(../assets/fonts/font.otf);
+}
+
+
+body {
+  position: relative;
+  background: var(--bg);
+  height: 100vh;
+  font-family: sans-serif;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+  -webkit-app-region: drag;
+  font-family: font, sans-serif;
+}
+
+button{
+  -webkit-app-region: no-drag
+}
