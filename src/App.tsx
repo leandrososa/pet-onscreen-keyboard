@@ -5,7 +5,7 @@ import './App.global.css';
 
 const Hello = () => {
   return (
-    <CommodoreKeypad/>
+    <CommodoreKeypad></CommodoreKeypad>
   );
 };
 
